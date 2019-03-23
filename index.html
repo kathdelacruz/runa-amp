@@ -217,9 +217,6 @@
       margin-top: 2rem;
     }
     .overwrite-accordion-header {
-      align-items: center;
-      display: flex !important;
-      justify-content: space-between;
       padding-right: 0;
       background-color: white;
       border: none;
@@ -234,6 +231,7 @@
       text-decoration: none;
       margin: 0;
     }
+    .overwrite-accordion-header .chevron-down { margin-left: .5rem; }
     .overwrite-accordion-content {
       padding-left: 20px;
       border-top: 1px dashed #7a6ff0;
@@ -261,9 +259,10 @@
             <h5 class="overwrite-accordion-header">
               <span>Características</span>
               <amp-img
-                src="assets/chevron-down.svg"
-                width=18
-                height=18
+                src="assets/chevron-down-two.svg"
+                width=12
+                height=8
+                class="chevron-down"
                 >
               </amp-img>
             </h5>
@@ -284,9 +283,10 @@
               <h5 class="overwrite-accordion-header">
                 <span>Recursos</span>
                 <amp-img
-                  src="assets/chevron-down.svg"
-                  width=18
-                  height=18
+                  src="assets/chevron-down-two.svg"
+                  width=12
+                  height=8
+                  class="chevron-down"
                   >
                 </amp-img>
               </h5>

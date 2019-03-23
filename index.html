@@ -81,6 +81,31 @@
       background-color: #f5a623;
       color: white;
     }
+    .benefit-icon-wrapper {
+      align-items: center;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      height: 120px;
+      justify-content: center;
+      margin: 0 auto;
+      width: 120px;
+    }
+    .benefit-description {
+      padding: 0 2rem;
+      text-align: center;
+    }
+    .benefit-description h5 {
+      font-size: .9rem;
+      font-family: "ProximaNova-Bold", sans-serif;
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: .5rem;
+    }
+    .benefit-description p {
+      font-size: .9rem;
+      margin: 0;
+    }
     .customer-story {
       text-align: center;
     }
@@ -303,7 +328,8 @@
     <h2>Fácil y sin complicaciones</h2>
     <amp-carousel
       layout="responsive"
-      width="345" height="207"
+      width="345"
+      height="207"
       type="slides"
       autoplay
       delay="5000"
@@ -351,13 +377,64 @@
   </section>
   <section class="benefits">
       <h2>Runa hace el proceso de nómina más fácil</h2>
-      <amp-carousel layout="responsive" width="300" height="168" type="slides" autoplay delay="5000" loop>
-        <amp-fit-text width="300" height="250" layout="fixed">
-          Big, bold article quote goes here.
-        </amp-fit-text>
-        <amp-fit-text width="300" height="250" layout="fixed">
-          Big, bold article quote goes here.
-        </amp-fit-text>
+      <amp-carousel
+        layout="responsive"
+        width="345"
+        height="216"
+        type="slides"
+        autoplay
+        delay="5000"
+        loop
+        controls
+      >
+        <div>
+          <div class="benefit-icon-wrapper">
+              <amp-img src="https://runahr.com/wp-content/themes/runa-theme-2019/assets/img/calculo.svg"
+                width="54"
+                height="54">
+              </amp-img>
+          </div>
+          <div class="benefit-description">
+            <h5>Cálculo</h5>
+            <p>No pagues de más ni de menos. Runa hace el cálculo exacto y en automático.</p>
+          </div>
+        </div>
+        <div>
+          <div class="benefit-icon-wrapper">
+              <amp-img src="https://runahr.com/wp-content/themes/runa-theme-2019/assets/img/pago.svg"
+                width="30"
+                height="54">
+              </amp-img>
+          </div>
+          <div class="benefit-description">
+            <h5>Pago</h5>
+            <p>Paga a tus empleados desde la plataforma hacia cualquier banco.</p>
+          </div>
+        </div>
+        <div>
+          <div class="benefit-icon-wrapper">
+              <amp-img src="https://runahr.com/wp-content/themes/runa-theme-2019/assets/img/timbrado.svg"
+                width="48"
+                height="54">
+              </amp-img>
+          </div>
+          <div class="benefit-description">
+            <h5>Timbrado</h5>
+            <p>Timbra la nómina desde la plataforma en sólo 3 segundos y sin costo extra.</p>
+          </div>
+        </div>
+        <div>
+          <div class="benefit-icon-wrapper">
+              <amp-img src="https://runahr.com/wp-content/themes/runa-theme-2019/assets/img/recibos.svg"
+                width="47"
+                height="54">
+              </amp-img>
+          </div>
+          <div class="benefit-description">
+            <h5>Recibos</h5>
+            <p>Runa envía los recibos de nómina en automático por correo a los empleados.</p>
+          </div>
+        </div>
       </amp-carousel>
   </section>
   <section class="customer-story">

@@ -29,7 +29,7 @@
       line-height: 1.2rem;
     }
     header { padding: 24px 20px; }
-    section { padding: 40px 20px; }
+    section, footer { padding: 40px 20px; }
     h1,
     h2 { font-family: "ProximaNova-Bold", sans-serif; }
     h1 {
@@ -66,6 +66,7 @@
     .banner p {
       text-align: left;
      }
+    .banner .video { margin-top: 2rem; }
     .benefits {
       background-color: #f5a623;
       color: white;
@@ -102,6 +103,20 @@
       font-size: .9rem;
       margin: 0 0 1rem 0;
     }
+    footer {
+      background-color: #352c60;
+      color: white;
+      font-size: .9rem;
+    }
+    footer h4 {
+      margin: 0 0 1rem;
+      font-size: 1rem;
+    }
+    footer .two-columns {
+      display: flex;
+      color: white;
+      margin-bottom: 24px;
+    }
   </style>
 </head>
 <body>
@@ -121,6 +136,7 @@
       width="640"
       height="360"
       layout="responsive"
+      class="video"
     >
       <source
         src="assets/runa_mobile.mp4"
@@ -183,6 +199,27 @@
       <p>Es simple, solamente necesitas tu computadora. Nada más.</p>
       <a class="primary-button" href="https://runahr.com/inscribete-demo/" target="_blank">Solicitar prueba</a>
   </section>
+  <footer>
+    <h4>Contáctanos</h4>
+    <div class="two-columns">
+      <div>
+        <a class="footer-link" href="tel:+525565872556">+52 55 6587 2556</a>
+        <a class="footer-link" href="mailto:info@runahr.com">info@runahr.com</a>
+      </div>
+      <div>
+          <a
+            href="https://www.google.com.mx/maps/place/Runa+HR/@19.4387152,-99.187777,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f9c1d57d93f3:0x1e2cb79e2d9eb1e8!8m2!3d19.4387126!4d-99.1866401"
+            target="_blank"
+            class="footer-link"
+          >
+            Lago Nargis #34 Polanco, CDMX México.
+          </a>
+      </div>
+    </div>
+    <h4>¿Qué es Runa</h4>
+    <p>Una solución completa de software de recursos humanos que ha sido diseñada para empresas de pequeñas a medianas en Latinoamérica.</p>
+    <span>© Copyright 2019 Runa Hr LLC All rights reserved</span>
+  </footer>
 
 
 </body>

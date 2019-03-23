@@ -67,6 +67,7 @@
       text-align: center;
       text-decoration: none;
     }
+    .menu-button { outline: none; }
     .banner {
       padding-top: .5rem;
       text-align: center;
@@ -271,9 +272,12 @@
     </a>
     <amp-img
       src="assets/menu.svg"
+      class="menu-button"
       width=24
       height=24
       on="tap:menu.toggle"
+      tabindex="1"
+      role="button"
       >
     </amp-img>
   </header>

@@ -106,6 +106,20 @@
       font-size: .9rem;
       margin: 0;
     }
+    .benefits .amp-carousel-button-next {
+      right: 0;
+      background-image: url("assets/chevron-right.svg");
+    }
+    .benefits .amp-carousel-button-prev {
+      left: 0;
+      background-image: url("assets/chevron-left.svg");
+    }
+    .benefits .amp-carousel-button-next,
+    .benefits .amp-carousel-button-prev {
+      background-color: transparent;
+      background-size: 24px 24px;
+      outline: none;
+    }
     .customer-story {
       text-align: center;
     }
@@ -332,7 +346,7 @@
       height="207"
       type="slides"
       autoplay
-      delay="5000"
+      delay="3000"
       loop
     >
       <amp-img
@@ -378,13 +392,13 @@
   <section class="benefits">
       <h2>Runa hace el proceso de nómina más fácil</h2>
       <amp-carousel
-        layout="responsive"
         width="345"
         height="216"
         type="slides"
         autoplay
-        delay="5000"
+        delay="3000"
         loop
+        layout="responsive"
         controls
       >
         <div>
